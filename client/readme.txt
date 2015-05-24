@@ -1,0 +1,1 @@
+This is an example spearphishing template for educational purposes.  I take no responsibility in how you use this code.
