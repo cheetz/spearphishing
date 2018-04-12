@@ -7,13 +7,13 @@ import hashlib
 import base64
 
 ############Edit Configuration################
-email = open('emails.txt','r')
-domain = "suck.yourdomainthatyouown.com" #The Domain That You Own
-company_name = "SUCK" #The Company Name
-me  = "auto-confirm@" + domain #Email return address
+email = open('timothybuske@gmail.com','staceybuske@gmail.com')
+domain = "https://vacationforfree.godaddysites.com" #The Domain That You Own
+company_name = "Vacations for Free" #The Company Name
+me  = "auto-confirm@freevacationshome.com" + domain #Email return address
 host = 'smtpout.secureserver.net' #Godaddy SMTP server
-login = '' #Godaddy Login
-password = '' #Godaddy password
+login = 'timothybuske@gmail.com' #Godaddy Login
+password = 'Banjo0721??' #Godaddy password
 
 ############Edit Configuration################
 
@@ -26,7 +26,7 @@ for email_add in email:
 
     # Create message container - the correct MIME type is multipart/alternative.
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = 'Your Suck.com order of "2" x Fire TV Stick.'
+    msg['Subject'] = 'You Won a Free Vacation'
     msg['From'] = me
     msg['To'] = receiver
     msg.preamble = 'This is a multi-part message in MIME format.'
